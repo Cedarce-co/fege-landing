@@ -232,9 +232,13 @@ export const pages = {
       "Transaction contract solution. Terms both sides accept, money held while fulfilment is tracked, and evidence if a dispute starts.",
   },
   download: {
-    headline: "Get Fege on your phone",
+    headline: "App almost ready!",
     subhead:
-      "The app is not in the stores yet [CONFIRM]. Join the waitlist and we will message you when you can download Fege.",
+      "Get Fege on your phone. Be the first to try it.",
+    formLead:
+      "Leave your name and WhatsApp number. We will message you when you can download Fege.",
+    formNote:
+      "We only use this to message you about Fege. Nothing else.",
   },
 } as const;
 

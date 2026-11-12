@@ -4,6 +4,7 @@ import { FormEvent, useState } from "react";
 import { toast } from "react-toastify";
 import { joinWaitlist } from "@/app/actions/waitlist";
 import { Button } from "@/components/ui/Button";
+import { pages } from "@/content/site";
 
 const fieldClass =
   "focus-ring h-12 w-full rounded-full border border-rv-line bg-white px-5 text-base text-rv-ink outline-none";
@@ -32,7 +33,7 @@ export function WaitlistForm() {
     setEmail("");
     setRole("seller");
     setStatus("idle");
-    toast.success("You're on the list. We will message you when Fege is ready.");
+    toast.success("You're on the list. We will message you when you can download Fege.");
   }
 
   return (
@@ -92,7 +93,7 @@ export function WaitlistForm() {
         {status === "saving" ? "Saving…" : "Join the waitlist"}
       </Button>
       <p className="text-center text-sm text-white/65">
-        We only use this to tell you when the app is ready. Store links coming soon [CONFIRM].
+        {pages.download.formNote}
       </p>
     </form>
   );

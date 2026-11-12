@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/Button";
 type PageHeroProps = {
   headline: string;
   subhead: string;
-  cta?: string;
+  cta?: string | false;
   ctaHref?: string;
   image?: string;
   crumb?: string;
@@ -48,16 +48,18 @@ export function PageHero({
         >
           {subhead}
         </motion.p>
-        <motion.div
-          initial={reduce ? false : { opacity: 0, y: 12 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.65, delay: 0.16 }}
-          className="mt-8"
-        >
-          <Button href={ctaHref} variant="white" size="lg">
-            {cta}
-          </Button>
-        </motion.div>
+        {cta ? (
+          <motion.div
+            initial={reduce ? false : { opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.65, delay: 0.16 }}
+            className="mt-8"
+          >
+            <Button href={ctaHref} variant="white" size="lg">
+              {cta}
+            </Button>
+          </motion.div>
+        ) : null}
       </div>
     </section>
   );

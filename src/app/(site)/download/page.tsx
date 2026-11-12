@@ -3,7 +3,7 @@ import { FadeIn } from "@/components/ui/FadeIn";
 import { FlipStack } from "@/components/ui/FlipStack";
 import { PageHero } from "@/components/ui/PageHero";
 import { WaitlistForm } from "@/components/waitlist/WaitlistForm";
-import { brand, home, pages } from "@/content/site";
+import { home, pages } from "@/content/site";
 
 export const metadata: Metadata = {
   title: "Waitlist",
@@ -17,8 +17,7 @@ export default function DownloadPage() {
         headline={pages.download.headline}
         subhead={pages.download.subhead}
         image="/images/i-m-zion-KCPnPgAgz9s-unsplash.jpg"
-        cta="Join the waitlist"
-        ctaHref="#waitlist"
+        cta={false}
       />
       <section className="relative overflow-hidden py-14 text-white md:py-24">
         <img
@@ -29,16 +28,9 @@ export default function DownloadPage() {
         <div className="absolute inset-0 bg-[#07141c]/82" />
         <div className="section-pad page-width relative grid min-w-0 items-start gap-10 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] lg:gap-12">
           <FadeIn className="min-w-0">
-            <p className="text-sm font-medium tracking-[0.08em] text-white/60 uppercase">
-              What Fege does
-            </p>
-            <h2 className="mt-3 max-w-full text-[2rem] leading-[1.15] font-medium tracking-[-0.04em] text-balance sm:text-4xl md:text-5xl">
-              {brand.tagline}
-            </h2>
-            <p className="mt-5 max-w-2xl text-base leading-relaxed text-white/75 md:text-lg">
+            <h2 className="max-w-full text-[2rem] leading-[1.15] font-medium tracking-[-0.04em] text-balance sm:text-4xl md:text-5xl">
               {home.hero.subhead}
-            </p>
-            <p className="mt-4 text-base leading-relaxed text-white/85">{brand.safety}</p>
+            </h2>
 
             <FlipStack steps={home.howItWorks.steps} className="mt-8 md:mt-10" />
           </FadeIn>
@@ -49,8 +41,7 @@ export default function DownloadPage() {
                 Join the waitlist
               </h2>
               <p className="mt-3 text-sm leading-relaxed text-white/70">
-                Fege is not in the App Store or Google Play yet [CONFIRM]. Leave your name
-                and WhatsApp number. We will message you when you can download the app.
+                {pages.download.formLead}
               </p>
               <div className="mt-6">
                 <WaitlistForm />
