@@ -1,0 +1,181 @@
+@import "tailwindcss";
+
+:root {
+  --background: #07141c;
+  --foreground: #ffffff;
+}
+
+@theme inline {
+  --color-background: #07141c;
+  --color-foreground: #ffffff;
+  --color-rv-black: #1f1f1f;
+  --color-rv-ink: #191c1f;
+  --color-rv-muted: #717173;
+  --color-rv-line: #e3e4e5;
+  --color-rv-fog: #f5f6f7;
+  --color-rv-white: #ffffff;
+  --color-fege-blue: #2f7fa6;
+  --color-fege-blue-deep: #1f5f7d;
+  --color-fege-secure: #1f7a4d;
+  --font-sans: var(--font-jakarta);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #07141c;
+  color: #fff;
+  font-family: var(--font-jakarta), system-ui, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: rgba(47, 127, 166, 0.25);
+}
+
+.section-pad {
+  padding-inline: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .section-pad {
+    padding-inline: 1.5rem;
+  }
+}
+
+.page-width {
+  width: 100%;
+  margin-inline: auto;
+}
+
+@media (min-width: 1024px) {
+  .page-width {
+    width: 70%;
+    padding-inline: 0;
+  }
+}
+
+.step-copy {
+  padding-left: 4.75rem;
+}
+
+@media (min-width: 1024px) {
+  .step-copy {
+    padding-left: 0;
+  }
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid #2f7fa6;
+  outline-offset: 3px;
+}
+
+.marquee-track {
+  animation: marquee 55s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Phone: one row you swipe. From 768px it becomes a normal grid. */
+.snap-row {
+  display: flex;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  gap: 0.875rem;
+  margin-inline: -1.25rem;
+  padding-inline: 1.25rem;
+  padding-bottom: 0.35rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 1.25rem;
+  scrollbar-width: none;
+}
+
+.snap-row::-webkit-scrollbar {
+  display: none;
+}
+
+.snap-row > * {
+  flex: 0 0 82%;
+  scroll-snap-align: center;
+}
+
+@media (min-width: 768px) {
+  .snap-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+    margin-inline: 0;
+    padding-inline: 0;
+    overflow: visible;
+    scroll-snap-type: none;
+  }
+
+  .snap-row > * {
+    flex: unset;
+    min-width: 0;
+  }
+
+  .snap-row.snap-stack {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .snap-row.snap-row-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .snap-row.snap-row-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@keyframes bg-drift {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.06);
+  }
+}
+
+.bg-drift {
+  animation: bg-drift 26s ease-in-out infinite alternate;
+  transform-origin: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .marquee-track {
+    animation: none;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
