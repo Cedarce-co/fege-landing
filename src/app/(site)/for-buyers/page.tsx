@@ -42,10 +42,11 @@ export default function ForBuyersPage() {
             <div className="mt-12 max-w-2xl">
               <p className="text-lg text-white/75">
                 You are right not to pay before you see the goods. The seller is
-                right not to send them before they are paid. Fege holds the contract.
-                A real link starts with{" "}
-                <span className="font-medium text-white">fege.africa</span>. We will
-                never ask you to pay to a personal account number.
+                right not to send them before they are paid. Review the terms, pay on
+                Fege, track fulfilment, then confirm only when the goods arrive. If
+                something is wrong, raise it with evidence before the check window
+                ends. A real link starts with{" "}
+                <span className="font-medium text-white">fege.africa</span>.
               </p>
               <div className="mt-6">
                 <Button href="/d/demo" variant="white" size="lg">

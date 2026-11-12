@@ -15,7 +15,7 @@ const benefits = [
   {
     id: "first-buyers",
     title: "Win first-time buyers",
-    text: "A contract and a held payment remove the doubt.",
+    text: "Both sides accept the same terms. A held payment removes the doubt.",
   },
   {
     id: "established",
@@ -24,23 +24,23 @@ const benefits = [
   },
   {
     id: "delivery",
-    title: "Book delivery in one tap",
-    text: "Even when you have many orders waiting.",
+    title: "Track fulfilment",
+    text: "Keep delivery, milestones and proof on the contract while the money stays held.",
   },
   {
     id: "locked",
     title: "Know when money is locked",
-    text: "An instant alert the moment funds are held.",
+    text: "An instant alert the moment funds are held, before you send the goods.",
   },
   {
     id: "place",
     title: "Every contract in one place",
-    text: "Track, filter and export your transactions.",
+    text: "Track, filter and export your transactions, including open disputes.",
   },
   {
     id: "payout",
     title: "Get paid without stress",
-    text: "Auto-payout straight to your bank.",
+    text: "After confirmation or a clean check window, Auto-payout goes straight to your bank.",
   },
 ] as const;
 

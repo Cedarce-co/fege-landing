@@ -222,7 +222,7 @@ Always design vertical first, add captions on every video, and keep text on bann
 - Sellers should hear this: build instant trust for your business.
 - Lead with winning the sale. Use scams as proof, not as the headline.
 - Never shout or scare. No "100% safe", "guaranteed" or "no scams ever".
-- Say what happens in order: they see the contract, they pay, the money is held, you send the goods, they confirm, you get paid.
+- Say what happens in order: create the contract, both sides accept the terms, they pay, the money is held, you fulfil and track delivery, they confirm, you get paid. If something is wrong, evidence and disputes matter.
 - Say "send a contract", never "send the deal". Use "deal" only for winning the sale: "win the deal". The buyer page is still called the Deal Page.
 - No em dashes. Write in plain punctuation.
 
@@ -289,10 +289,10 @@ Headline: Sound familiar?
 Closing line: Both of you are right. Why lose the sale? Fege holds the middle.
 
 **How it works (4 steps)**
-1. **Add your buyer's number.** Send the contract in under a minute. Fege checks the number and sends it.
-2. **They see the contract.** The goods, the price and your name. They know what they are paying for.
-3. **Their money is held.** They pay on the Deal Page. You see the money held, then you send the goods.
-4. **They see the goods. You get paid.** When they confirm, or the window ends with no problem, the money is released to you.
+1. **Add your buyer's number.** Create the contract in under a minute: the goods, the price, delivery and what both of you agree. Fege checks the number and sends it.
+2. **They see the contract.** They review your name, the goods, the price and the conditions. When they accept, both sides are on the same terms.
+3. **Their money is held.** They pay on the Deal Page. The money stays held while you fulfil the order. You track delivery and keep proof along the way.
+4. **They see the goods. You get paid.** When they confirm, or the check window ends with no problem, the money is released to you. If something is wrong, report it and we review the evidence.
 
 **Seller benefits**
 - Win the sale: you are not wrong to want pay first.
@@ -304,13 +304,13 @@ Closing line: Both of you are right. Why lose the sale? Fege holds the middle.
 
 **Buyer protection**
 Headline: You are right to wait for the goods.
-Text: Pay on a Fege contract and your payment is held. The seller only gets paid after you confirm the goods. If something is wrong, tell us, and our team reviews the evidence.
+Text: Review and accept the Fege contract, then pay. Your payment is held while fulfilment is tracked. Confirm only when you see the goods. If something is wrong, report it before the check window ends and our team reviews the evidence.
 
 **Security strip**
 - Identity-verified sellers
 - Money held by our licensed partner bank [CONFIRM]
-- Every step recorded as evidence
-- Real people review disputes
+- Fulfilment tracking on the contract
+- Evidence and disputes with real people
 
 **Pricing summary**
 Headline: Simple, visible fees.
@@ -326,9 +326,9 @@ Button: Download the app.
 |---|---|---|
 | How it works | You both win the deal | You will not sell without pay. They will not pay before they see the goods. |
 | For sellers | Why lose them? | You are not wrong to want pay first. They are not wrong to want the goods first. |
-| For buyers | You are right to wait for the goods | Pay on Fege. The seller only gets the money after you see your order. |
+| For buyers | You are right to wait for the goods | Review the contract. Pay on Fege. Track the order. Confirm only when you see the goods. |
 | Pricing | Fees you can see before you commit | One clear fee. No surprises at checkout. [CONFIRM] |
-| Security | Both sides stay protected | Fege is a transaction contract solution. A contract both sides can point to. |
+| Security | Both sides stay protected | Terms both sides accept, money held while fulfilment is tracked, evidence if a dispute starts. |
 | Scam awareness | Spot the scam before it spots you | Short guides on fake alerts, fake sellers and phishing links. |
 | About | We build trust for people who sell on their phones | Fege exists so honest sellers stop losing sales to doubt. |
 | Contact | Talk to a real person | We reply on WhatsApp and email. [CONFIRM hours] |
@@ -352,13 +352,13 @@ Download the app. Get it on Google Play. Download on the App Store. See how it w
 
 **Sellers**
 - *What is Fege?* Fege is a transaction contract solution. It builds instant trust for your business. You will not sell without pay. They will not pay before they see the goods. It is not an invoice, and it is not an app that only locks money.
-- *Do my buyers need to download anything?* No. They open your link in WhatsApp, Instagram or SMS and pay on a simple Deal Page.
+- *Do my buyers need to download anything?* No. They open your link in WhatsApp, Instagram or SMS, review the contract on a Deal Page, and pay there.
 - *What does it cost?* [CONFIRM] Fees are shown on the contract before anyone pays.
-- *When do I get my money?* After the buyer confirms, or when the check window ends with no problem. With Auto-payout it goes straight to your bank.
-- *What if a buyer lies about not receiving the item?* We review the evidence: your delivery proof, tracking and the delivery code.
+- *When do I get my money?* After the buyer confirms the goods, or when the check window ends with no problem. With Auto-payout it goes straight to your bank.
+- *What if something goes wrong?* Report it before the check window ends. We review the evidence: the contract terms, delivery proof, tracking and messages. Real people handle disputes.
 
 **Buyers**
-- *Is my money safe?* Your payment is held until you confirm delivery. [CONFIRM partner wording]
+- *Is my money safe?* Your payment is held under the contract until you confirm the goods. [CONFIRM partner wording]
 - *What if I do not get my order?* Report it before the check window ends and our team reviews the evidence.
 - *How do I know the link is real?* It starts with fege.africa. We never ask you to pay a personal account.
 - *Do I need an account?* No. You only need your phone.

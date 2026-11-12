@@ -92,7 +92,8 @@ export function DealPageView({ deal }: DealPageViewProps) {
               className="mt-5 max-w-[26rem] text-base leading-relaxed text-white drop-shadow-[0_1px_10px_rgba(0,0,0,0.35)] xl:text-lg"
             >
               A Fege contract from {deal.businessName} for {deal.quantity} {deal.productName}.
-              Your money stays held until you see the goods.
+              Review the terms, pay securely, track fulfilment, then confirm when you
+              see the goods.
             </motion.p>
             <motion.div
               initial={reduce ? false : { opacity: 0, y: 10 }}
@@ -132,7 +133,8 @@ export function DealPageView({ deal }: DealPageViewProps) {
               className="mt-4 max-w-md text-base leading-relaxed text-white/95"
             >
               A Fege contract from {deal.businessName} for {deal.quantity} {deal.productName}.
-              Your money stays held until you see the goods.
+              Review the terms, pay securely, track fulfilment, then confirm when you
+              see the goods.
             </motion.p>
             <div className="mt-6">
               <Button size="lg">{dealCopy.payCta}</Button>

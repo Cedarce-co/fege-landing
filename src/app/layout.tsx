@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import { Toaster } from "@/components/ui/Toaster";
+import { brand } from "@/content/site";
 import "./globals.css";
 
 const jakarta = Plus_Jakarta_Sans({
@@ -10,12 +11,9 @@ const jakarta = Plus_Jakarta_Sans({
   weight: ["400", "500", "600", "700"],
 });
 
-const description =
-  "Fege is a transaction contract solution. Build instant trust for your business. You will not sell without pay. They will not pay before they see the goods.";
-
-const shareTitle = "Fege. You're not wrong. Your customers are also right.";
-
-const tabTitle = `${shareTitle} ${description}`;
+const description = brand.about;
+const tabTitle = brand.about;
+const shareTitle = brand.about;
 
 export const metadata: Metadata = {
   title: {

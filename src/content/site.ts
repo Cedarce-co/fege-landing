@@ -3,7 +3,7 @@ export const brand = {
   domain: "fege.africa",
   tagline: "You're not wrong. Your customers are also right.",
   about:
-    "Fege is a transaction contract solution. It builds instant trust for your business identity, so you will not sell without pay and they will not pay before they see the goods.",
+    "Transaction contract solution. Build instant trust for your business, so you will not sell without pay and they will not pay before they see the goods.",
   safety: "Pay only on fege.africa. Fege never asks you to pay a personal account.",
 } as const;
 
@@ -16,9 +16,9 @@ export const nav = [
 
 export const home = {
   hero: {
-    headline: "You're not wrong.",
+    headline: "Buy & sell without fear.",
     subhead:
-      "Your customers are also right. You will not sell without pay, and they will not pay before they see the goods. Use Fege now and win the deal.",
+      "Sell fast. Use Fege and win your business deals.",
     cta: "Download the app",
     overlayLabel: "Deal",
     overlayAmount: "₦36,000",
@@ -26,8 +26,8 @@ export const home = {
     badges: ["Money held until delivery", "Verified seller"],
   },
   feature: {
-    headline: "Build instant trust for your business",
-    body: "Fege is a transaction contract solution. You are right to want pay before the goods leave. They are right to want the goods before they relax. It is not an invoice, and it is not an app that only locks the money.",
+    headline: "You're not wrong.",
+    body: "Your customers are also right. You will not sell without pay, and they will not pay before they see the goods. It is not an invoice, and it is not an app that only locks the money.",
     cta: "See how it works",
     href: "/how-it-works",
     cards: [
@@ -101,32 +101,32 @@ export const home = {
         id: "invoice",
         label: "The contract",
         title: "Send a contract, not an account number",
-        text: "Your business identity, the goods, the price, and what happens when they arrive.",
+        text: "Your business identity, the goods, the price, delivery terms, and what happens if something goes wrong.",
         image: "/images/atm3.jpg",
       },
       {
         id: "deal",
         label: "Deal Page",
         title: "What your buyer opens",
-        text: "A simple page to review the contract, pay securely and follow it until confirmation.",
+        text: "They review and accept the terms, pay securely, track fulfilment, then confirm the goods before money is released.",
         image: "/images/i-m-zion-KCPnPgAgz9s-unsplash.jpg",
       },
     ],
   },
   assistant: {
     headline: "Use Fege now.",
-    body: "Add their number. They see the contract. The money stays held until they confirm the goods, and then you get paid.",
+    body: "Add their number. They review the contract. Money is held while you fulfil the order. They confirm the goods, then you get paid.",
     cta: "See how it works",
     href: "/how-it-works",
   },
   security: {
     headline: "Both sides stay protected",
-    body: "Fege is a transaction contract solution, so your business identity and the contract are on record. Payments are held by our licensed partner bank [CONFIRM] until the buyer confirms the goods, or the check window ends. Every step is evidence.",
+    body: "Transaction contract solution, so your business identity and the terms are on record. Payments are held by our licensed partner bank [CONFIRM] until the buyer confirms the goods, or the check window ends. Delivery proof, chat and milestones stay as evidence. If something is wrong, real people review the dispute.",
     points: [
       "Identity-verified sellers",
       "Locked payments",
+      "Fulfilment tracking",
       "Evidence and disputes",
-      "Official links only",
     ],
     cta: "Explore security",
     href: "/security",
@@ -162,22 +162,22 @@ export const home = {
       {
         number: "01",
         title: "Add your buyer's number.",
-        text: "Send the contract in under a minute. Fege checks the number and sends it.",
+        text: "Create the contract in under a minute: the goods, the price, delivery and what both of you agree. Fege checks the number and sends it.",
       },
       {
         number: "02",
         title: "They see the contract.",
-        text: "The goods, the price and your name. They know what they are paying for.",
+        text: "They review your name, the goods, the price and the conditions. When they accept, both sides are on the same terms.",
       },
       {
         number: "03",
         title: "Their money is held.",
-        text: "They pay on the Deal Page. You see the money held, then you send the goods.",
+        text: "They pay on the Deal Page. The money stays held while you fulfil the order. You track delivery and keep proof along the way.",
       },
       {
         number: "04",
         title: "They see the goods. You get paid.",
-        text: "When they confirm, or the window ends with no problem, the money is released to you.",
+        text: "When they confirm, or the check window ends with no problem, the money is released to you. If something is wrong, report it and we review the evidence.",
       },
     ],
   },
@@ -186,11 +186,11 @@ export const home = {
     items: [
       {
         q: "What is Fege?",
-        a: "Fege is a transaction contract solution. It builds instant trust for your business identity. You will not sell without pay. They will not pay before they see the goods. It is not an invoice, and it is not an app that only locks money.",
+        a: "Transaction contract solution. Build instant trust for your business. You will not sell without pay. They will not pay before they see the goods. It is not an invoice, and it is not an app that only locks money.",
       },
       {
         q: "Do my buyers need to download anything?",
-        a: "No. They open your link in WhatsApp, Instagram or SMS and pay on a simple Deal Page.",
+        a: "No. They open your link in WhatsApp, Instagram or SMS, review the contract on a Deal Page, and pay there.",
       },
       {
         q: "How do I know the link is real?",
@@ -198,7 +198,11 @@ export const home = {
       },
       {
         q: "When do I get my money?",
-        a: "After the buyer confirms, or when the check window ends with no problem. With Auto-payout it goes straight to your bank.",
+        a: "After the buyer confirms the goods, or when the check window ends with no problem. With Auto-payout it goes straight to your bank.",
+      },
+      {
+        q: "What if something goes wrong?",
+        a: "Report it before the check window ends. We review the evidence: the contract terms, delivery proof, tracking and messages. Real people handle disputes.",
       },
     ],
   },
@@ -211,11 +215,12 @@ export const pages = {
   },
   forSellers: {
     headline: "Why lose them?",
-    subhead: "Build instant trust for your business identity. You are not wrong to want pay first. They are not wrong to want the goods first.",
+    subhead: "Build instant trust for your business. You are not wrong to want pay first. They are not wrong to want the goods first.",
   },
   forBuyers: {
     headline: "You are right to wait for the goods",
-    subhead: "Pay on Fege. The seller only gets the money after you see your order.",
+    subhead:
+      "Review the contract. Pay on Fege. Track the order. Confirm only when you see the goods. The seller gets paid after that.",
   },
   pricing: {
     headline: "Fees you can see before you commit",
@@ -224,7 +229,7 @@ export const pages = {
   security: {
     headline: "How we keep your money and your contract safe",
     subhead:
-      "Fege is a transaction contract solution. A contract both sides can point to, with your business identity on it.",
+      "Transaction contract solution. Terms both sides accept, money held while fulfilment is tracked, and evidence if a dispute starts.",
   },
   download: {
     headline: "Get Fege on your phone",
