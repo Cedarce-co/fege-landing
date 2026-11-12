@@ -1,6 +1,11 @@
 export const brand = {
   name: "Fege",
   domain: "fege.africa",
+  company: "Cedarce Technologies",
+  /** One-line ownership credit for footer. */
+  ownership: "A product of Cedarce Technologies",
+  address: "Lekki, Lagos, Nigeria",
+  supportEmail: "support@fege.africa",
   tagline: "You're not wrong. Your customers are also right.",
   about:
     "Transaction contract solution. Build instant trust for your business",
@@ -59,8 +64,6 @@ export const home = {
       "Money held by licensed partner [CONFIRM]",
       "Evidence on every step",
       "Real people on disputes",
-      "Pay only on fege.africa",
-      "No personal account requests",
       "WhatsApp · Instagram · SMS",
       "Not an invoice. Not just escrow.",
     ],
@@ -194,12 +197,12 @@ export const home = {
         a: "Transaction contract solution. Build instant trust for your business. You will not sell without pay. They will not pay before they see the goods. It is not an invoice, and it is not an app that only locks money.",
       },
       {
-        q: "Do my buyers need to download anything?",
-        a: "No. They open your link in WhatsApp, Instagram or SMS, review the contract on a Deal Page, and pay there.",
+        q: "Who makes Fege?",
+        a: "Fege is a product of Cedarce Technologies, a technology company building digital solutions that help businesses and individuals operate, connect and grow.",
       },
       {
-        q: "How do I know the link is real?",
-        a: "It starts with fege.africa. We will never ask you to pay to a personal account number.",
+        q: "Do my buyers need to download anything?",
+        a: "No. They open your link in WhatsApp, Instagram or SMS, review the contract on a Deal Page, and pay there.",
       },
       {
         q: "When do I get my money?",
@@ -245,6 +248,32 @@ export const pages = {
     formNote:
       "We will message you when you can download Fege.",
   },
+  about: {
+    headline: "About Fege",
+    subhead: "Making buying and selling safer for everyone.",
+    intro: [
+      "Buying and selling should be simple, fair and worry-free. But too often, people lose money, receive goods that don't match what was promised, or struggle to trust the people they transact with.",
+      "Fege was created to change that.",
+      "We provide a safer way for buyers and sellers to do business by helping them establish clear agreements, protect payments, track transaction fulfilment and resolve disagreements when things don't go as planned.",
+      "With Fege, both parties understand what is expected, what has been agreed upon and what needs to happen before a transaction is completed.",
+      "Our goal is simple: to make everyday transactions safer, more transparent and more trustworthy for everyone.",
+    ],
+    vision: {
+      title: "Our vision",
+      text: "To build a trusted transaction infrastructure that makes it easier for people and businesses to buy, sell and do business with confidence.",
+    },
+    mission: {
+      title: "Our mission",
+      text: "To protect buyers and sellers through clear agreements, secure transaction processes and accountability at every stage of a deal.",
+    },
+    who: {
+      title: "Who we are",
+      paragraphs: [
+        "Fege is a product of Cedarce Technologies, a technology company building digital solutions that help businesses and individuals operate, connect and grow.",
+        "Fege represents our commitment to making commerce safer through technology.",
+      ],
+    },
+  },
 } as const;
 
 export const footer = {
@@ -262,6 +291,7 @@ export const footer = {
     {
       title: "Company",
       links: [
+        { href: "/about", label: "About" },
         { href: "/security", label: "Security" },
         { href: "/download", label: "Waitlist" },
         { href: "/#faq", label: "FAQ" },

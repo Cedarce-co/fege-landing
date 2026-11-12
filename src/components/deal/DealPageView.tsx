@@ -186,7 +186,6 @@ export function DealPageView({ deal }: DealPageViewProps) {
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-white/70">
             {deal.messagePreview}
           </p>
-          <p className="mt-6 text-sm text-white/70">{dealCopy.help}</p>
         </div>
       </section>
     </div>

@@ -21,6 +21,18 @@ export function Footer() {
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/65">
               {brand.about}
             </p>
+            <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/55">
+              Business location: {brand.address}
+            </p>
+            <p className="mt-1 max-w-xs text-sm leading-relaxed text-white/55">
+              Support:{" "}
+              <a
+                href={`mailto:${brand.supportEmail}`}
+                className="focus-ring rounded text-white/70 transition-colors hover:text-white"
+              >
+                {brand.supportEmail}
+              </a>
+            </p>
           </div>
 
           {footer.columns.map((column) => (
@@ -46,8 +58,20 @@ export function Footer() {
           <Link href="/" aria-label="Fege home" className="focus-ring inline-flex rounded-lg">
             <BrandLogo tone="white" size="footer" />
           </Link>
-          <p className="mt-4 mb-6 max-w-xs text-sm leading-relaxed text-white/65">
+          <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/65">
             {brand.about}
+          </p>
+          <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/55">
+            Business location: {brand.address}
+          </p>
+          <p className="mt-1 mb-6 max-w-xs text-sm leading-relaxed text-white/55">
+            Support:{" "}
+            <a
+              href={`mailto:${brand.supportEmail}`}
+              className="focus-ring rounded text-white/70 transition-colors hover:text-white"
+            >
+              {brand.supportEmail}
+            </a>
           </p>
           {footer.columns.map((column) => {
             const isOpen = open === column.title;
@@ -81,8 +105,8 @@ export function Footer() {
         </div>
 
         <div className="mt-10 flex flex-col gap-3 border-t border-white/10 pt-8 text-sm text-white/65 md:flex-row md:items-center md:justify-between">
-          <p>© 2026 Fege. All rights reserved.</p>
-          <p>Real Fege links always start with fege.africa.</p>
+          <p>© 2026 Fege.</p>
+          <p>{brand.ownership}</p>
         </div>
       </div>
     </footer>

@@ -12,6 +12,7 @@ const labels: Record<string, string> = {
   "/pricing": "Pricing",
   "/security": "Security",
   "/download": "Waitlist",
+  "/about": "About",
 };
 
 export function Breadcrumbs({

@@ -34,7 +34,7 @@ export const sampleDeals: Record<string, Deal> = {
 };
 
 export const dealCopy = {
-  safety: "Pay only on fege.africa. Fege never asks you to pay a personal account.",
+  safety: "Your payment stays held until you confirm the goods.",
   protectionTitle: "You are right to wait for the goods",
   protectionBody:
     "The seller is right to want pay before they send them. Fege holds the middle. You review and accept the terms, pay securely, track fulfilment, then confirm only when you see the goods. If something is wrong, report it before the check window ends and we review the evidence.",
@@ -45,7 +45,7 @@ export const dealCopy = {
     },
     {
       title: "Pay securely",
-      text: "Your payment is held under the contract, not sent straight to a personal account.",
+      text: "Your payment is held under the contract until you confirm the goods.",
     },
     {
       title: "Track fulfilment",
@@ -57,7 +57,6 @@ export const dealCopy = {
     },
   ],
   payCta: "Pay securely with Fege",
-  help: "Not sure this link is real? Real Fege links always start with fege.africa.",
 } as const;
 
 export function getDeal(code: string): Deal {

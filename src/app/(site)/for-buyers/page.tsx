@@ -45,8 +45,7 @@ export default function ForBuyersPage() {
                 right not to send them before they are paid. Review the terms, pay on
                 Fege, track fulfilment, then confirm only when the goods arrive. If
                 something is wrong, raise it with evidence before the check window
-                ends. A real link starts with{" "}
-                <span className="font-medium text-white">fege.africa</span>.
+                ends.
               </p>
               <div className="mt-6">
                 <Button href="/d/demo" variant="white" size="lg">
