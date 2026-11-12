@@ -19,7 +19,7 @@ export const home = {
     headline: "Buy & sell without fear.",
     subhead:
       "Sell fast. Use Fege and win your business deals.",
-    cta: "Download the app",
+    cta: "Get early access",
     overlayLabel: "Deal",
     overlayAmount: "₦36,000",
     overlayAction: "Pay now",
@@ -153,7 +153,7 @@ export const home = {
   },
   join: {
     headline: "Why lose them? Use Fege and win the deal.",
-    cta: "Download the app",
+    cta: "Get early access",
   },
   howItWorks: {
     headline: "You both win the deal.",
@@ -238,7 +238,7 @@ export const pages = {
     formLead:
       "Leave your name and WhatsApp number. We will message you when you can download Fege.",
     formNote:
-      "We only use this to message you about Fege. Nothing else.",
+      "We will message you when you can download Fege.",
   },
 } as const;
 

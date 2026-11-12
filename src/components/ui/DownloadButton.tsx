@@ -27,7 +27,7 @@ export function DownloadButton({
   variant = "black",
   size = "lg",
   className,
-  children = "Download the app",
+  children = "Get early access",
 }: DownloadButtonProps) {
   return (
     <Button href="/download" variant={variant} size={size} className={className}>
