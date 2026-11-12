@@ -3,7 +3,7 @@ export const brand = {
   domain: "fege.africa",
   company: "Cedarce Technologies",
   /** One-line ownership credit for footer. */
-  ownership: "A product of Cedarce Technologies",
+  ownership: "Built with love by Cedarce Technologies",
   address: "Lekki, Lagos, Nigeria",
   supportEmail: "support@fege.africa",
   tagline: "You're not wrong. Your customers are also right.",

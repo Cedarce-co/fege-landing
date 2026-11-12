@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
@@ -104,9 +105,19 @@ export function Footer() {
           })}
         </div>
 
-        <div className="mt-10 flex flex-col gap-3 border-t border-white/10 pt-8 text-sm text-white/65 md:flex-row md:items-center md:justify-between">
+        <div className="mt-10 flex flex-col gap-4 border-t border-white/10 pt-8 text-sm text-white/65 md:flex-row md:items-end md:justify-between">
           <p>© 2026 Fege.</p>
-          <p>{brand.ownership}</p>
+          <div className="flex flex-col items-start gap-2 md:items-end">
+            <p className="text-white/55">{brand.ownership}</p>
+            <Image
+              src="/cedarcelogowhitetext-transparent.png"
+              alt="Cedarce Technologies"
+              width={480}
+              height={120}
+              unoptimized
+              className="h-6 w-auto md:h-7"
+            />
+          </div>
         </div>
       </div>
     </footer>
