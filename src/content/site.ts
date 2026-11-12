@@ -3,8 +3,13 @@ export const brand = {
   domain: "fege.africa",
   tagline: "You're not wrong. Your customers are also right.",
   about:
-    "Transaction contract solution. Build instant trust for your business, so you will not sell without pay and they will not pay before they see the goods.",
-  safety: "Pay only on fege.africa. Fege never asks you to pay a personal account.",
+    "Transaction contract solution. Build instant trust for your business",
+  /** Short title for browser tabs and link previews (WhatsApp, etc.). */
+  shareTitle: "Build instant trust for your business",
+  /** Plain-language share blurb. Keep different from shareTitle so previews are not duplicated. */
+  shareDescription:
+    "Build instant trust for your business & sell without fear",
+  safety: "Win your business deals securely",
 } as const;
 
 export const nav = [

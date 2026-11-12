@@ -11,14 +11,14 @@ const jakarta = Plus_Jakarta_Sans({
   weight: ["400", "500", "600", "700"],
 });
 
-const description = brand.about;
-const tabTitle = brand.about;
-const shareTitle = brand.about;
+const tabTitle = brand.shareTitle;
+const shareTitle = brand.shareTitle;
+const description = brand.shareDescription;
 
 export const metadata: Metadata = {
   title: {
     default: tabTitle,
-    template: `%s · ${tabTitle}`,
+    template: `%s · Fege`,
   },
   description,
   applicationName: "Fege",
