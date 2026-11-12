@@ -2,6 +2,8 @@ export const brand = {
   name: "Fege",
   domain: "fege.africa",
   tagline: "You're not wrong. Your customers are also right.",
+  about:
+    "Fege is a transaction contract solution. It builds instant trust for your business identity, so you will not sell without pay and they will not pay before they see the goods.",
   safety: "Pay only on fege.africa. Fege never asks you to pay a personal account.",
 } as const;
 
